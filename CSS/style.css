@@ -2,6 +2,24 @@
 @import url("./navbar.css");
 @import url("../components/button/button.css");
 
+:root {
+  --primary-color: #ff4e54;
+  --default-color: #4a4a68;
+  --secondary-color: #f3f4f6;
+  --danger-color: #f44336;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --active-color: #f9d6c5;
+
+  --primary-hover: #ff7176;
+  --secondary-hover: #e5e7eb;
+  --danger-hover: #d31609;
+  --success-hover: #0d8611;
+  --active-hover: #fbe6dc;
+
+  --off-white: #f6f9fc;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +28,10 @@ html {
 * {
   margin: 0;
   padding: 0;
+}
+
+iframe {
+  border-radius: 10px;
 }
 
 body {
@@ -52,7 +74,7 @@ p {
 }
 
 main {
-  width: 100%;
+  width: 95%;
   max-width: 900px;
   margin: 30px auto;
   min-height: 100vh;
@@ -65,4 +87,17 @@ main {
 .sub-heading {
   text-align: center;
   margin-top: 30px;
+}
+
+.heading-button-container {
+  display: flex;
+  margin: 25px auto;
+  gap: 30px;
+  justify-content: center;
+}
+
+.heading-button-container > a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 50px 15px 50px;
 }
