@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #ff4e54;
+  --default-color: #172b4d;
+  --secondary-color: #f3f4f6;
+  --danger-color: #f44336;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --active-color: #f9d6c5;
+
+  --primary-hover: #ff7176;
+  --secondary-hover: #e5e7eb;
+  --danger-hover: #d31609;
+  --success-hover: #0d8611;
+  --active-hover: #fbe6dc;
+
+  --off-white: #f6f9fc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 1024px;
+  min-height: 100vh;
+  height: max-content;
+  font-family: "Rubik", sans-serif;
+}
