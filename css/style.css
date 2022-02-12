@@ -32,7 +32,7 @@ html {
   font-size: 62.5%;
 }
 
-iframe {
+iframe.au-iframe {
   border-radius: 1rem;
 }
 
