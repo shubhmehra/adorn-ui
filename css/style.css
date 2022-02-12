@@ -7,6 +7,7 @@
 @import url("../components/card/card.css");
 @import url("../components/images/images.css");
 @import url("../components/inputs/input.css");
+@import url("../components/toast/toast.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -133,4 +134,16 @@ main.component-page {
 
 .au-primary-text {
   color: var(--primary-color);
+}
+
+.au-success-text {
+  color: var(--success-color);
+}
+
+.au-danger-text {
+  color: var(--danger-hover);
+}
+
+.au-warning-text {
+  color: var(--warning-color);
 }

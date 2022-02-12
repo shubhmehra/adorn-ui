@@ -1,0 +1,20 @@
+.toast {
+  padding: 1rem;
+  font-size: 2.4rem;
+  width: 100%;
+  max-width: 25rem;
+  background-color: var(--off-white);
+  border-radius: 5px;
+}
+
+.toast.success {
+  border: 1px solid var(--success-color);
+}
+
+.toast.warning {
+  border: 1px solid var(--warning-color);
+}
+
+.toast.danger {
+  border: 1px solid var(--danger-color);
+}
