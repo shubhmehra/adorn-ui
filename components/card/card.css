@@ -3,7 +3,7 @@
   gap: 1rem;
   flex-flow: column;
   height: max-content;
-  max-width: 300px;
+  max-width: 30rem;
   background-color: var(--off-white);
   border-radius: 5px;
   padding: 1rem;
