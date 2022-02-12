@@ -55,6 +55,7 @@
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
+  gap: 5rem;
 }
 
 .navbar-link {
