@@ -121,3 +121,11 @@ main {
   flex-wrap: wrap;
   padding: 15px 50px;
 }
+
+main.main-page {
+  max-width: 500px;
+  min-height: 100vh;
+  padding-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
