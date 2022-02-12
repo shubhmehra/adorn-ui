@@ -29,10 +29,11 @@ html {
 * {
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
 }
 
 iframe {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 body {
@@ -42,7 +43,6 @@ body {
   min-height: 100vh;
   height: max-content;
   margin: 0 auto;
-  font-size: 62.5%;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: calc(1.5em + 0.2vw);
 }
 
@@ -87,35 +87,36 @@ main {
 
 .sub-heading {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .heading-button-container {
   display: flex;
-  margin: 25px auto;
-  gap: 30px;
+  margin: 2.5rem auto;
+  gap: 3rem;
   justify-content: center;
 }
 
 .heading-button-container > a {
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
-  padding: 15px 50px 15px 50px;
+  padding: 1.5rem 5rem;
 }
 
 .code-wrapper {
   display: flex;
-  margin: 35px 0;
+  margin: 3.5rem 0;
   flex-flow: column;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .code-container {
   display: flex;
-  gap: 10px;
-  padding: 20px 25px;
+  gap: 1rem;
+  padding: 2rem 2.5rem;
   background-color: var(--active-color);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }

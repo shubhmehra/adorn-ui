@@ -7,11 +7,12 @@
 }
 
 .component-links-list > li {
-  padding: 2rem 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .component-links-list > li > a {
-  font-size: 14px;
+  font-size: 1.4rem;
   text-decoration: none;
   color: var(--default-color);
   font-weight: 500;
@@ -37,7 +38,7 @@
 .navbar-title {
   color: var(--primary-color);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2.8rem;
   line-height: 35px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -45,22 +46,24 @@
 
 .navbar-title:hover {
   color: var(--primary-hover);
-  font-size: 31px;
+  font-size: 3rem;
 }
 
 .navbar-links {
+  margin-left: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
 }
 
-.navbar-links a {
+.navbar-link {
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--default-color);
   text-decoration: none;
   cursor: pointer;
-  font-size: 1rem;
   transition: all 0.3s ease;
   list-style: none;
+  padding: 0.8rem;
 }
