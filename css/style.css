@@ -5,6 +5,7 @@
 @import url("../components/button/button.css");
 @import url("../components/badges/badges.css");
 @import url("../components/card/card.css");
+@import url("../components/images/images.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -127,4 +128,8 @@ main.main-page {
 
 main.component-page {
   padding: 1rem;
+}
+
+.au-primary-text {
+  color: var(--primary-color);
 }
