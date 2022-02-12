@@ -1,18 +1,20 @@
 .component-links-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   transition: 0.5s;
 }
 
 .component-links-list > li {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 .component-links-list > li > a {
   font-size: 14px;
   text-decoration: none;
+  color: var(--default-color);
+  font-weight: 500;
 }
 
 .component-links-list > li.active > a {
@@ -54,7 +56,7 @@
 }
 
 .navbar-links a {
-  font-weight: 800;
+  font-weight: 500;
   color: var(--default-color);
   text-decoration: none;
   cursor: pointer;

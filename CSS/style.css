@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 @import url("./navbar.css");
 @import url("../components/button/button.css");
+@import url("../components/avatar/avatar.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -9,7 +10,7 @@
   --danger-color: #f44336;
   --success-color: #4caf50;
   --warning-color: #ff9800;
-  --active-color: #f9d6c5;
+  --active-color: #ffeded;
 
   --primary-hover: #ff7176;
   --secondary-hover: #e5e7eb;
@@ -100,4 +101,21 @@ main {
   font-size: 20px;
   text-decoration: none;
   padding: 15px 50px 15px 50px;
+}
+
+.code-wrapper {
+  display: flex;
+  margin: 35px 0;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.code-container {
+  display: flex;
+  gap: 10px;
+  padding: 20px 25px;
+  background-color: var(--active-color);
+  border-radius: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
