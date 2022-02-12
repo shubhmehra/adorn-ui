@@ -1,0 +1,27 @@
+.avatar {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-cicular {
+  border-radius: 50%;
+}
+
+.avatar.avatar-square {
+  border-radius: 0.5rem;
+}
+
+.sm {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.md {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+.lg {
+  width: 5.4rem;
+  height: 5.4rem;
+}

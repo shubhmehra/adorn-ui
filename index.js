@@ -6,13 +6,18 @@ const addNav = () => {
     <div class="navbar-container">
         <a href="/index.html" class="navbar-title">Adorn Box</a>
         <ul class="navbar-links">
-        <li><a href="/components/avatar/index.html">Docs</a></li>
+            <li><a class="navbar-link" href="/components/alert/alert.html">Docs</a></li>
+            <li><a class="navbar-link" href="https://github.com/shubhmehra/adorn-ui">Github</a></li>
         </ul>
     </div>
     <div class="component-links-container">
         <ul class="component-links-list">
-            <li class="${activeLinkCheck("avatar")}"><a href="">Avatar</a></li>
-            <li class="${activeLinkCheck("alert")}"><a href="">Alert</a></li>
+            <li class="${activeLinkCheck(
+              "alert"
+            )}"><a href="/components/alert/alert.html">Alert</a></li>
+            <li class="${activeLinkCheck(
+              "avatar"
+            )}"><a href="/components/avatar/avatar.html">Avatar</a></li>
             <li class="${activeLinkCheck("badge")}"><a href="">Badges</a></li>
             <li class="${activeLinkCheck(
               "button"

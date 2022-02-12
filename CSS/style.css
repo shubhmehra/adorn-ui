@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 @import url("./navbar.css");
 @import url("../components/button/button.css");
+@import url("../components/avatar/avatar.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -9,7 +10,7 @@
   --danger-color: #f44336;
   --success-color: #4caf50;
   --warning-color: #ff9800;
-  --active-color: #f9d6c5;
+  --active-color: #ffeded;
 
   --primary-hover: #ff7176;
   --secondary-hover: #e5e7eb;
@@ -28,10 +29,11 @@ html {
 * {
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
 }
 
 iframe {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 body {
@@ -41,43 +43,35 @@ body {
   min-height: 100vh;
   height: max-content;
   margin: 0 auto;
-  font-size: 62.5%;
 }
 
-h1 {
+h1.au-heading {
   font-size: 4.8rem;
   line-height: 1.05em;
   font-weight: 800;
 }
 
-h2 {
+h2.au-heading {
   font-size: 3.6rem;
   line-height: 1.25em;
   font-weight: 700;
 }
 
-h3 {
+h3.au-heading {
   font-size: 2.8rem;
   line-height: 1.25em;
   font-weight: 600;
 }
 
-h4 {
+h4.au-heading {
   font-size: 1.8rem;
   line-height: 1.22em;
   font-weight: 500;
 }
 
-p {
-  font-size: 1rem;
+p.au-text {
+  font-size: 1.4rem;
   line-height: calc(1.5em + 0.2vw);
-}
-
-main {
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0 auto;
-  min-height: 100vh;
 }
 
 .heading {
@@ -86,18 +80,44 @@ main {
 
 .sub-heading {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .heading-button-container {
   display: flex;
-  margin: 25px auto;
-  gap: 30px;
+  margin: 2.5rem auto;
+  gap: 3rem;
   justify-content: center;
 }
 
 .heading-button-container > a {
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
+  padding: 1.5rem 5rem;
+}
+
+.code-wrapper {
+  display: flex;
+  margin: 3.5rem 0;
+  flex-flow: column;
+  gap: 2rem;
+}
+
+.code-container {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 2.5rem;
+  background-color: var(--active-color);
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 15px 50px;
+}
+
+main.main-page {
+  max-width: 500px;
+  min-height: 100vh;
+  padding-top: 10rem;
+  margin: auto;
 }
