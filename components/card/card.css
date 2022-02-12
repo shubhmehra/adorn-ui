@@ -1,0 +1,98 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  flex-flow: column;
+  height: max-content;
+  max-width: 30rem;
+  background-color: var(--off-white);
+  border-radius: 5px;
+  padding: 1rem;
+  transition: 500ms;
+}
+
+.card:hover {
+  box-shadow: var(--default-color) 0px 2px 5px -1px;
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.card-text {
+  color: var(--default-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.product-image {
+  border-radius: 5px;
+}
+
+.card-ecommerce {
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  top: 20px;
+  left: -1px;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.card-badge-dismiss {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+  transition: 800ms;
+}
+
+.card-badge-dismiss:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.product-image-container {
+  position: relative;
+}
+
+.card-overlay-text {
+  position: absolute;
+  transition: 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--off-white);
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.card-horizontal {
+  flex-flow: row;
+  max-width: 60rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-horizontal {
+    max-width: 30rem;
+    flex-wrap: wrap;
+  }
+}
+
+.card-horizontal-body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}

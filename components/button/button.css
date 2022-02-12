@@ -104,3 +104,7 @@
   background-color: transparent;
   color: var(--warning-color);
 }
+
+.button-full-width {
+  width: auto;
+}

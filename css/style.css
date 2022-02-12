@@ -4,6 +4,7 @@
 @import url("../components/avatar/avatar.css");
 @import url("../components/button/button.css");
 @import url("../components/badges/badges.css");
+@import url("../components/card/card.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -122,4 +123,8 @@ main.main-page {
   min-height: 100vh;
   padding-top: 10rem;
   margin: auto;
+}
+
+main.component-page {
+  padding: 1rem;
 }
