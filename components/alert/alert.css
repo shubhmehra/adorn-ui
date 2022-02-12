@@ -1,0 +1,56 @@
+.alert {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  opacity: 0.9;
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+strong.au-alert-text {
+  font-size: 1.4rem;
+}
+
+.alert.primary {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+}
+
+.alert.secondary {
+  background-color: var(--secondary-color);
+  color: var(--default-color);
+}
+
+.alert.success {
+  background-color: var(--success-color);
+  color: var(--off-white);
+}
+
+.alert.warning {
+  background-color: var(--warning-color);
+  color: var(--off-white);
+}
+
+.alert.outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--off-white);
+}
+
+.alert.outline-secondary {
+  border: 1px solid var(--default-color);
+  color: var(--default-color);
+  background-color: var(--off-white);
+}
+
+.alert.outline-success {
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+  background-color: var(--off-white);
+}
+
+.alert.outline-warning {
+  border: 1px solid var(--warning-color);
+  color: var(--warning-color);
+  background-color: var(--off-white);
+}

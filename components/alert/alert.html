@@ -10,9 +10,98 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="main-container">
       <nav class="navbar" id="main_nav"></nav>
-      <main></main>
+      <main>
+        <div>
+          <div>
+            <h3 class="au-heading">Alert</h3>
+            <p class="au-text">
+              Alert are useful to display important messages to users & attract
+              user's attention.
+            </p>
+          </div>
+          <hr />
+          <div class="code-wrapper">
+            <h4 class="au-heading">Simple alert</h4>
+            <p class="au-text">
+              Simple alert can be created with alert class with variant name.
+            </p>
+            <div class="code-container">
+              <div class="alert primary">
+                <strong class="au-alert-text">Primary!</strong> This is a
+                Primary Alert - Check it now!
+              </div>
+              <div class="alert secondary">
+                <strong class="au-alert-text">Secondary!</strong> This is a
+                Secondary Alert - Check it now!
+              </div>
+              <div class="alert success">
+                <strong class="au-alert-text">Success!</strong> This is a
+                Success Alert - Check it now!
+              </div>
+              <div class="alert warning">
+                <strong class="au-alert-text">Warning!</strong> This is a
+                Warning Alert - Check it now!
+              </div>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520secondary%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 484px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr />
+          <div class="code-wrapper">
+            <h4 class="au-heading">Outline alert</h4>
+            <p class="au-text">
+              Outline alert can be created with alert class with outline variant
+              name.
+            </p>
+            <div class="code-container">
+              <div class="alert outline-primary">
+                <strong class="au-alert-text">Primary!</strong> This is a
+                Primary Alert - Check it now!
+              </div>
+              <div class="alert outline-secondary">
+                <strong class="au-alert-text">Secondary!</strong> This is a
+                Secondary Alert - Check it now!
+              </div>
+              <div class="alert outline-success">
+                <strong class="au-alert-text">Success!</strong> This is a
+                Success Alert - Check it now!
+              </div>
+              <div class="alert outline-warning">
+                <strong class="au-alert-text">Warning!</strong> This is a
+                Warning Alert - Check it now!
+              </div>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-primary%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-secondary%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253ESecondary%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520Secondary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2520%2520%253Cstrong%2520class%253D%2522au-alert-text%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%250A%2520%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 484px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
     <script src="/index.js"></script>
   </body>

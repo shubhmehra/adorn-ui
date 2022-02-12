@@ -18,7 +18,9 @@ const addNav = () => {
             <li class="${activeLinkCheck(
               "avatar"
             )}"><a href="/components/avatar/avatar.html">Avatar</a></li>
-            <li class="${activeLinkCheck("badge")}"><a href="">Badges</a></li>
+            <li class="${activeLinkCheck(
+              "badge"
+            )}"><a href="/components/badges/badges.html">Badges</a></li>
             <li class="${activeLinkCheck(
               "button"
             )}"><a href="/components/button/button.html">Buttons</a></li>

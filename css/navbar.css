@@ -4,11 +4,12 @@
   align-items: center;
   list-style: none;
   transition: 0.5s;
+  flex-wrap: wrap;
 }
 
 .component-links-list > li {
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .component-links-list > li > a {
@@ -21,6 +22,7 @@
 .component-links-list > li.active > a {
   color: var(--primary-color);
 }
+
 .component-links-list > li > a:hover {
   color: var(--primary-color);
   transition: 0.5s;
@@ -33,6 +35,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .navbar-title {
