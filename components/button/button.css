@@ -1,0 +1,117 @@
+.button-code-wrapper {
+  display: flex;
+  margin: 35px 0;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.button-code-container {
+  display: flex;
+  gap: 10px;
+  padding: 20px 25px;
+  background-color: var(--active-color);
+  border-radius: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  font-weight: 600;
+  width: max-content;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-contained-primary {
+  background: var(--primary-color);
+  color: var(--off-white);
+}
+
+.button-contained-secondary {
+  background: var(--secondary-color);
+  color: var(--default-color);
+}
+
+.button-contained-success {
+  background: var(--success-color);
+  color: var(--off-white);
+}
+
+.button-contained-warning {
+  background: var(--warning-color);
+  color: var(--off-white);
+}
+
+.button-outlined-primary {
+  background-color: var(--off-white);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.button-outlined-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+}
+
+.button-outlined-secondary {
+  background-color: var(--off-white);
+  border: 1px solid var(--default-color);
+  color: var(--default-color);
+}
+
+.button-outlined-secondary:hover {
+  background-color: var(--default-color);
+  color: var(--off-white);
+}
+
+.button-outlined-success {
+  background-color: var(--off-white);
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+}
+
+.button-outlined-success:hover {
+  background-color: var(--success-color);
+  color: var(--off-white);
+}
+
+.button-outlined-warning {
+  background-color: var(--off-white);
+  border: 1px solid var(--warning-color);
+  color: var(--warning-color);
+}
+
+.button-outlined-warning:hover {
+  background-color: var(--warning-color);
+  color: var(--off-white);
+}
+
+.button-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.button-text-primary {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.button-text-secondary {
+  background-color: transparent;
+  color: var(--default-color);
+}
+
+.button-text-success {
+  background-color: transparent;
+  color: var(--success-color);
+}
+
+.button-text-warning {
+  background-color: transparent;
+  color: var(--warning-color);
+}
