@@ -4,11 +4,12 @@
   align-items: center;
   list-style: none;
   transition: 0.5s;
+  flex-wrap: wrap;
 }
 
 .component-links-list > li {
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .component-links-list > li > a {
@@ -33,6 +34,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .navbar-title {
