@@ -1,138 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>AdornBox</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./favicon.ico" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <title>AdornBox</title>
-</head>
-
-<body>
-  <div class="container">
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="/index.html" class="navbar-title">Adorn Box</a>
-        <ul class="navbar-links">
-          <li><a href="/components/intro.html">Docs</a></li>
-        </ul>
-      </div>
-    </nav>
-    <main>
-      <div class="button-container">
-        <div class="button-title">
-          <h3>Buttons</h3>
-          <p>
-            Buttons are very important part to introduce interativeness to
-            your websites. It allow user to take actions.
-          </p>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a href="/index.html" class="navbar-title">Adorn Box</a>
+          <ul class="navbar-links">
+            <li><a href="/components/intro.html">Docs</a></li>
+          </ul>
         </div>
-        <hr />
-        <div class="button-code-wrapper">
-          <h4>Contained Button</h4>
-          <p>Contained button can be used to make primary actions.</p>
-          <div class="button-code-container">
-            <button class="button button-contained-primary">
-              PRIMARY BUTTON
-            </button>
-            <button class="button button-contained-secondary">
-              SECONDARY BUTTON
-            </button>
-            <button class="button button-contained-success">
-              SUCCESS BUTTON
-            </button>
-            <button class="button button-contained-warning">
-              WARNING BUTTON
-            </button>
+        <div class="component-links-container">
+          <ul class="component-links-list">
+            <li><a href="">Avatar</a></li>
+            <li><a href="">Alert</a></li>
+            <li><a href="">Badges</a></li>
+            <li class="active"><a href="">Buttons</a></li>
+            <li><a href="">Card</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">Input</a></li>
+            <li><a href="">List</a></li>
+            <li><a href="">Toast</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <div class="button-container">
+          <div class="button-title">
+            <h3>Buttons</h3>
+            <p>
+              Buttons are very important part to introduce interativeness to
+              your websites. It allow user to take actions.
+            </p>
           </div>
-          <div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-contained-primary%2522%253EPRIMARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-secondary%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-success%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-warning%2522%253EWARNING%2520BUTTON%253C%252Fbutton%253E"
-              style="
+          <hr />
+          <div class="button-code-wrapper">
+            <h4>Contained Button</h4>
+            <p>Contained button can be used to make primary actions.</p>
+            <div class="button-code-container">
+              <button class="button button-contained-primary">
+                PRIMARY BUTTON
+              </button>
+              <button class="button button-contained-secondary">
+                SECONDARY BUTTON
+              </button>
+              <button class="button button-contained-success">
+                SUCCESS BUTTON
+              </button>
+              <button class="button button-contained-warning">
+                WARNING BUTTON
+              </button>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-contained-primary%2522%253EPRIMARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-secondary%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-success%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-warning%2522%253EWARNING%2520BUTTON%253C%252Fbutton%253E"
+                style="
                   width: 100%;
                   height: 208px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
           </div>
-        </div>
-        <hr />
-        <div class="button-code-wrapper">
-          <h4>Outlined Button</h4>
-          <p>Contained button can be used to make primary actions.</p>
-          <div class="button-code-container">
-            <button class="button button-outlined-primary">
-              PRIMARY BUTTON
-            </button>
-            <button class="button button-outlined-secondary">
-              SECONDARY BUTTON
-            </button>
-            <button class="button button-outlined-success">
-              SUCCESS BUTTON
-            </button>
-            <button class="button button-outlined-warning">
-              WARNING BUTTON
-            </button>
-          </div>
-          <div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-outlined-primary%2522%253EPRIMARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-secondary%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-success%2522%253ESUCCESS%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-warning%2522%253EWARNING%2520BUTTON%253C%252Fbutton%253E"
-              style="
+          <hr />
+          <div class="button-code-wrapper">
+            <h4>Outlined Floating Button</h4>
+            <p>Contained button can be used to make primary actions.</p>
+            <div class="button-code-container">
+              <button class="button button-outlined-primary">
+                PRIMARY BUTTON
+              </button>
+              <button class="button button-outlined-secondary">
+                SECONDARY BUTTON
+              </button>
+              <button class="button button-outlined-success">
+                SUCCESS BUTTON
+              </button>
+              <button class="button button-outlined-warning">
+                WARNING BUTTON
+              </button>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-outlined-primary%2522%253EPRIMARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-secondary%2522%253ESECONDARY%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-success%2522%253ESUCCESS%2520BUTTON%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-outlined-warning%2522%253EWARNING%2520BUTTON%253C%252Fbutton%253E"
+                style="
                   width: 100%;
                   height: 208px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                " sandbox="allow-scripts allow-same-origin">
-            </iframe>
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr />
+          <div class="button-code-wrapper">
+            <h4>Icon Button</h4>
+            <p>
+              Icon Buttons can be used with SVGs. That can help user to identify
+              button's action more quickly
+            </p>
+            <div class="button-code-container">
+              <button class="button button-outlined-primary button-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  class="iconify iconify--mdi"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3a3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                SAVE BUTTON
+              </button>
+              <button class="button button-contained-primary button-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  class="iconify iconify--mdi"
+                  width="1em"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3a3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                SAVE BUTTON
+              </button>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-outlined-primary%2520button-icon%2522%253E%250A%2509%253Csvg%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520SAVE%2520BUTTON%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-primary%2520button-icon%2522%253E%250A%2509%253Csvg%253E%253C%252Fsvg%253E%250A%2509SAVE%2520BUTTON%250A%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: 304px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <hr />
+          <div class="button-code-wrapper">
+            <h4>Text Button</h4>
+            <p>Text Buttons can be used to provide action on your texts.</p>
+            <div class="button-code-container">
+              <button class="button button-text-primary">
+                PRIMARY LINK BUTTON
+              </button>
+              <button class="button button-text-secondary">
+                SECONDARY LINK BUTTON
+              </button>
+              <button class="button button-text-success">
+                SUCCESS LINK BUTTON
+              </button>
+              <button class="button button-text-warning">
+                WARNING LINK BUTTON
+              </button>
+            </div>
+            <div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-text-primary%2522%253E%2520PRIMARY%2520LINK%2520BUTTON%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-text-secondary%2522%253E%2520SECONDARY%2520LINK%2520BUTTON%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-text-success%2522%253E%2520SUCCESS%2520LINK%2520BUTTON%2520%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-text-warning%2522%253E%2520WARNING%2520LINK%2520BUTTON%2520%253C%252Fbutton%253E"
+                style="
+                  width: 100%;
+                  height: 261px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
           </div>
         </div>
-        <hr />
-        <div class="button-code-wrapper">
-          <h4>Icon Button</h4>
-          <p>
-            Icon Buttons can be used with SVGs. That can help user to identify
-            button's action more quickly
-          </p>
-          <div class="button-code-container">
-            <button class="button button-outlined-primary button-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                role="img" class="iconify iconify--mdi" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24">
-                <path
-                  d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3a3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4z"
-                  fill="currentColor"></path>
-              </svg>
-              SAVE BUTTON
-            </button>
-            <button class="button button-contained-primary button-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-                role="img" class="iconify iconify--mdi" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                viewBox="0 0 24 24">
-                <path
-                  d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3a3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4z"
-                  fill="currentColor"></path>
-              </svg>
-              SAVE BUTTON
-            </button>
-          </div>
-          <div>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=19px&ph=18px&ln=false&fl=1&fm=Ubuntu+Mono&fs=18px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-outlined-primary%2520button-icon%2522%253E%250A%2509%253Csvg%253E%253C%252Fsvg%253E%250A%2520%2520%2520%2520SAVE%2520BUTTON%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520button-contained-primary%2520button-icon%2522%253E%250A%2509%253Csvg%253E%253C%252Fsvg%253E%250A%2509SAVE%2520BUTTON%250A%253C%252Fbutton%253E"
-              style="width: 100%; height: 304px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin">
-            </iframe>
-          </div>
-        </div>
-      </div>
-  </div>
-  </main>
-  </div>
-  <script src="index.js"></script>
-</body>
-
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

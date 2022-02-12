@@ -74,9 +74,9 @@ p {
 }
 
 main {
-  width: 95%;
-  max-width: 900px;
-  margin: 30px auto;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
   min-height: 100vh;
 }
 

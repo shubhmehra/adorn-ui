@@ -95,3 +95,23 @@
   align-items: center;
   gap: 5px;
 }
+
+.button-text-primary {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.button-text-secondary {
+  background-color: transparent;
+  color: var(--default-color);
+}
+
+.button-text-success {
+  background-color: transparent;
+  color: var(--success-color);
+}
+
+.button-text-warning {
+  background-color: transparent;
+  color: var(--warning-color);
+}
