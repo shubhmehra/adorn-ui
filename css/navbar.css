@@ -22,6 +22,7 @@
 .component-links-list > li.active > a {
   color: var(--primary-color);
 }
+
 .component-links-list > li > a:hover {
   color: var(--primary-color);
   transition: 0.5s;
