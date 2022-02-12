@@ -6,6 +6,7 @@
 @import url("../components/badges/badges.css");
 @import url("../components/card/card.css");
 @import url("../components/images/images.css");
+@import url("../components/inputs/input.css");
 
 :root {
   --primary-color: #ff4e54;

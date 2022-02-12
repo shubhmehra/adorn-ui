@@ -30,9 +30,12 @@ const addNav = () => {
             <li class="${activeLinkCheck(
               "image"
             )}"><a href="/components/images/images.html">Images</a></li>
-            <li class="${activeLinkCheck("input")}"><a href="">Input</a></li>
-            <li class="${activeLinkCheck("list")}"><a href="">List</a></li>
-            <li class="${activeLinkCheck("toast")}"><a href="">Toast</a></li>
+            <li class="${activeLinkCheck(
+              "input"
+            )}"><a href="/components/inputs/input.html">Input</a></li>
+            <li class="${activeLinkCheck(
+              "toast"
+            )}"><a href="/components/toast/toast.html">Toast</a></li>
         </ul>
     </div>
 `;
