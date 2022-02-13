@@ -12,7 +12,7 @@ input[type="text"] {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   width: 100%;
-  min-width: 512px;
+  min-width: 51rem;
   transition: 0.3s all ease;
   outline: none;
   border-radius: 5px;
