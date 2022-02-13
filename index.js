@@ -33,6 +33,9 @@ const addNav = () => {
             <li class="${activeLinkCheck("input")}">
               <a href="/components/inputs/input.html">Input</a>
             </li>
+            <li class="${activeLinkCheck("navbar")}">
+              <a href="/components/navbar/navbar.html">Navbar</a>
+            </li>
             <li class="${activeLinkCheck("toast")}">
               <a href="/components/toast/toast.html">Toast</a>
             </li>
