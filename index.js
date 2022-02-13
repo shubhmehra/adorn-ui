@@ -4,7 +4,7 @@ const activeLinkCheck = (componentName) =>
 const addNav = () => {
   document.getElementById("main_nav").innerHTML += `
     <div class="navbar-container">
-        <a href="/index.html" class="navbar-title">Adorn Box</a>
+        <a href="/index.html" class="navbar-title">Adorn Box UI</a>
         <ul class="navbar-links">
             <li><a class="navbar-link" href="/components/alert/alert.html">Docs</a></li>
             <li><a class="navbar-link" href="https://github.com/shubhmehra/adorn-ui">Github</a></li>
@@ -32,6 +32,9 @@ const addNav = () => {
             </li>
             <li class="${activeLinkCheck("input")}">
               <a href="/components/inputs/input.html">Input</a>
+            </li>
+            <li class="${activeLinkCheck("navbar")}">
+              <a href="/components/navbar/navbar.html">Navbar</a>
             </li>
             <li class="${activeLinkCheck("toast")}">
               <a href="/components/toast/toast.html">Toast</a>

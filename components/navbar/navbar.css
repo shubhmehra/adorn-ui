@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar-background-light {
+  background: var(--off-white);
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.navbar-input {
+  min-width: auto;
+}

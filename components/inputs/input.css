@@ -6,13 +6,11 @@
 
 input[type="text"] {
   border: 1px solid var(--default-color);
-  padding: 1rem 1.4rem;
+  padding: 0.8rem 1.4rem;
   float: left;
   font-size: 1.8rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  width: 100%;
-  min-width: 51rem;
   transition: 0.3s all ease;
   outline: none;
   border-radius: 5px;
@@ -36,4 +34,14 @@ input[type="text"] {
 
 .input-group.error input:focus {
   border: 1px solid var(--danger-hover);
+}
+
+.example-input {
+  min-width: 51rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .example-input {
+    min-width: auto;
+  }
 }
