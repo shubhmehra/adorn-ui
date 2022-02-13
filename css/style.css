@@ -8,6 +8,7 @@
 @import url("../components/images/images.css");
 @import url("../components/inputs/input.css");
 @import url("../components/toast/toast.css");
+@import url("../components/typography/typography.css");
 
 :root {
   --primary-color: #ff4e54;
@@ -73,6 +74,18 @@ h4.au-heading {
   font-size: 1.8rem;
   line-height: 1.22em;
   font-weight: 500;
+}
+
+h5.au-heading {
+  font-size: 1.4rem;
+  line-height: 1.22em;
+  font-weight: 500;
+}
+
+h6.au-heading {
+  font-size: 1rem;
+  line-height: 1.22em;
+  font-weight: 400;
 }
 
 p.au-text {
