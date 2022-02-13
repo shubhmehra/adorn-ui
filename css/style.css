@@ -47,10 +47,13 @@ iframe.au-iframe {
 div.main-container {
   font-family: "Rubik", sans-serif;
   width: 100%;
-  max-width: 1024px;
   min-height: 100vh;
   height: max-content;
   margin: 0 auto;
+}
+
+div.max-au-main-container-width {
+  max-width: 1024px;
 }
 
 h1.au-heading {
