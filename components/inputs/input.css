@@ -9,8 +9,6 @@ input[type="text"] {
   padding: 0.8rem 1.4rem;
   float: left;
   font-size: 1.8rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
   transition: 0.3s all ease;
   outline: none;
   border-radius: 5px;

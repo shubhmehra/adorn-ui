@@ -14,4 +14,17 @@
 
 .navbar-input {
   min-width: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 870px) {
+  .navbar-content {
+    display: none;
+  }
 }
