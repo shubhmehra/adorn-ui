@@ -5,6 +5,7 @@
   list-style: none;
   transition: 0.5s;
   flex-wrap: wrap;
+  gap: 5px;
 }
 
 .component-links-list > li {
