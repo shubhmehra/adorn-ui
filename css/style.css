@@ -164,6 +164,10 @@ main.component-page {
   color: var(--primary-color);
 }
 
+.au-secondary-default-text {
+  color: var(--default-color);
+}
+
 .au-success-text {
   color: var(--success-color);
 }
