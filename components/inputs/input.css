@@ -4,13 +4,11 @@
   font-size: 2.4rem;
 }
 
-input[type="text"] {
+.au-input {
   border: 1px solid var(--default-color);
   padding: 0.8rem 1.4rem;
-  float: left;
   font-size: 1.8rem;
   transition: 0.3s all ease;
-  outline: none;
   border-radius: 5px;
 }
 
