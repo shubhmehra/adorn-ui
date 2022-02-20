@@ -101,6 +101,9 @@ p.au-text {
   font-size: 1.6rem;
   line-height: 24px;
   color: var(--default-color);
+}
+
+.au-remove-text-decoration {
   text-decoration: none;
 }
 
