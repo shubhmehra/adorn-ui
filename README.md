@@ -1,5 +1,5 @@
 # ADORN UI
- Adorn box is component library with predefined ready to use responsive components
+ Adorn UI is component library with predefined ready to use responsive components
 
 ## Components
 
