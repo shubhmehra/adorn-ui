@@ -40,5 +40,5 @@ Adorn UI don't have any dependency you just need a code editor & a browser. Just
 Adorn UI is live & deployed on netlify,
 
 
-> Live link: `https://adorn-components.netlify.app/`
+> Live link: https://adorn-components.netlify.app/
 
